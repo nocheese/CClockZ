@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E268CF51C34E81F001B3F55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E268CF41C34E81F001B3F55 /* AppDelegate.swift */; };
+		8E268CF71C34E81F001B3F55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E268CF61C34E81F001B3F55 /* ViewController.swift */; };
+		8E268CFA1C34E81F001B3F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E268CF81C34E81F001B3F55 /* Main.storyboard */; };
+		8E268CFC1C34E81F001B3F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E268CFB1C34E81F001B3F55 /* Assets.xcassets */; };
+		8E268CFF1C34E81F001B3F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E268CFD1C34E81F001B3F55 /* LaunchScreen.storyboard */; };
+		8E268D0A1C34E81F001B3F55 /* CClockZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E268D091C34E81F001B3F55 /* CClockZTests.swift */; };
+		8E268D151C34E81F001B3F55 /* CClockZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E268D141C34E81F001B3F55 /* CClockZUITests.swift */; };
+		8E268D231C34EC83001B3F55 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E268D221C34EC83001B3F55 /* AudioToolbox.framework */; };
+		8E268D321C34F059001B3F55 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D251C34F059001B3F55 /* Icon-60.png */; };
+		8E268D331C34F059001B3F55 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D261C34F059001B3F55 /* Icon-60@2x.png */; };
+		8E268D341C34F059001B3F55 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D271C34F059001B3F55 /* Icon-60@3x.png */; };
+		8E268D351C34F059001B3F55 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D281C34F059001B3F55 /* Icon-Small.png */; };
+		8E268D361C34F059001B3F55 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D291C34F059001B3F55 /* Icon-Small@2x.png */; };
+		8E268D371C34F059001B3F55 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D2A1C34F059001B3F55 /* Icon-Small@3x.png */; };
+		8E268D381C34F059001B3F55 /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D2B1C34F059001B3F55 /* Icon-Spotlight-40.png */; };
+		8E268D391C34F059001B3F55 /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D2C1C34F059001B3F55 /* Icon-Spotlight-40@2x.png */; };
+		8E268D3A1C34F059001B3F55 /* Icon-Spotlight-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D2D1C34F059001B3F55 /* Icon-Spotlight-40@3x.png */; };
+		8E268D3B1C34F059001B3F55 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D2E1C34F059001B3F55 /* Icon.png */; };
+		8E268D3C1C34F059001B3F55 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D2F1C34F059001B3F55 /* Icon@2x.png */; };
+		8E268D3D1C34F059001B3F55 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D301C34F059001B3F55 /* iTunesArtwork */; };
+		8E268D3E1C34F059001B3F55 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 8E268D311C34F059001B3F55 /* iTunesArtwork@2x */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E268D061C34E81F001B3F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E268CE91C34E81F001B3F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E268CF01C34E81F001B3F55;
+			remoteInfo = CClockZ;
+		};
+		8E268D111C34E81F001B3F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E268CE91C34E81F001B3F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E268CF01C34E81F001B3F55;
+			remoteInfo = CClockZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E268CF11C34E81F001B3F55 /* CClockZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CClockZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E268CF41C34E81F001B3F55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E268CF61C34E81F001B3F55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E268CF91C34E81F001B3F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E268CFB1C34E81F001B3F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E268CFE1C34E81F001B3F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E268D001C34E81F001B3F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E268D051C34E81F001B3F55 /* CClockZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CClockZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E268D091C34E81F001B3F55 /* CClockZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CClockZTests.swift; sourceTree = "<group>"; };
+		8E268D0B1C34E81F001B3F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E268D101C34E81F001B3F55 /* CClockZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CClockZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E268D141C34E81F001B3F55 /* CClockZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CClockZUITests.swift; sourceTree = "<group>"; };
+		8E268D161C34E81F001B3F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E268D221C34EC83001B3F55 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8E268D251C34F059001B3F55 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		8E268D261C34F059001B3F55 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		8E268D271C34F059001B3F55 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		8E268D281C34F059001B3F55 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		8E268D291C34F059001B3F55 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		8E268D2A1C34F059001B3F55 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		8E268D2B1C34F059001B3F55 /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40.png"; sourceTree = "<group>"; };
+		8E268D2C1C34F059001B3F55 /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		8E268D2D1C34F059001B3F55 /* Icon-Spotlight-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@3x.png"; sourceTree = "<group>"; };
+		8E268D2E1C34F059001B3F55 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8E268D2F1C34F059001B3F55 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		8E268D301C34F059001B3F55 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		8E268D311C34F059001B3F55 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E268CEE1C34E81F001B3F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E268D231C34EC83001B3F55 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E268D021C34E81F001B3F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E268D0D1C34E81F001B3F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E268CE81C34E81F001B3F55 = {
+			isa = PBXGroup;
+			children = (
+				8E268D221C34EC83001B3F55 /* AudioToolbox.framework */,
+				8E268CF31C34E81F001B3F55 /* CClockZ */,
+				8E268D081C34E81F001B3F55 /* CClockZTests */,
+				8E268D131C34E81F001B3F55 /* CClockZUITests */,
+				8E268D241C34F059001B3F55 /* icon */,
+				8E268CF21C34E81F001B3F55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E268CF21C34E81F001B3F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E268CF11C34E81F001B3F55 /* CClockZ.app */,
+				8E268D051C34E81F001B3F55 /* CClockZTests.xctest */,
+				8E268D101C34E81F001B3F55 /* CClockZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E268CF31C34E81F001B3F55 /* CClockZ */ = {
+			isa = PBXGroup;
+			children = (
+				8E268CF41C34E81F001B3F55 /* AppDelegate.swift */,
+				8E268CF61C34E81F001B3F55 /* ViewController.swift */,
+				8E268CF81C34E81F001B3F55 /* Main.storyboard */,
+				8E268CFB1C34E81F001B3F55 /* Assets.xcassets */,
+				8E268CFD1C34E81F001B3F55 /* LaunchScreen.storyboard */,
+				8E268D001C34E81F001B3F55 /* Info.plist */,
+			);
+			path = CClockZ;
+			sourceTree = "<group>";
+		};
+		8E268D081C34E81F001B3F55 /* CClockZTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E268D091C34E81F001B3F55 /* CClockZTests.swift */,
+				8E268D0B1C34E81F001B3F55 /* Info.plist */,
+			);
+			path = CClockZTests;
+			sourceTree = "<group>";
+		};
+		8E268D131C34E81F001B3F55 /* CClockZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E268D141C34E81F001B3F55 /* CClockZUITests.swift */,
+				8E268D161C34E81F001B3F55 /* Info.plist */,
+			);
+			path = CClockZUITests;
+			sourceTree = "<group>";
+		};
+		8E268D241C34F059001B3F55 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				8E268D251C34F059001B3F55 /* Icon-60.png */,
+				8E268D261C34F059001B3F55 /* Icon-60@2x.png */,
+				8E268D271C34F059001B3F55 /* Icon-60@3x.png */,
+				8E268D281C34F059001B3F55 /* Icon-Small.png */,
+				8E268D291C34F059001B3F55 /* Icon-Small@2x.png */,
+				8E268D2A1C34F059001B3F55 /* Icon-Small@3x.png */,
+				8E268D2B1C34F059001B3F55 /* Icon-Spotlight-40.png */,
+				8E268D2C1C34F059001B3F55 /* Icon-Spotlight-40@2x.png */,
+				8E268D2D1C34F059001B3F55 /* Icon-Spotlight-40@3x.png */,
+				8E268D2E1C34F059001B3F55 /* Icon.png */,
+				8E268D2F1C34F059001B3F55 /* Icon@2x.png */,
+				8E268D301C34F059001B3F55 /* iTunesArtwork */,
+				8E268D311C34F059001B3F55 /* iTunesArtwork@2x */,
+			);
+			name = icon;
+			path = CClockZ/icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E268CF01C34E81F001B3F55 /* CClockZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E268D191C34E81F001B3F55 /* Build configuration list for PBXNativeTarget "CClockZ" */;
+			buildPhases = (
+				8E268CED1C34E81F001B3F55 /* Sources */,
+				8E268CEE1C34E81F001B3F55 /* Frameworks */,
+				8E268CEF1C34E81F001B3F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CClockZ;
+			productName = CClockZ;
+			productReference = 8E268CF11C34E81F001B3F55 /* CClockZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E268D041C34E81F001B3F55 /* CClockZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E268D1C1C34E81F001B3F55 /* Build configuration list for PBXNativeTarget "CClockZTests" */;
+			buildPhases = (
+				8E268D011C34E81F001B3F55 /* Sources */,
+				8E268D021C34E81F001B3F55 /* Frameworks */,
+				8E268D031C34E81F001B3F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E268D071C34E81F001B3F55 /* PBXTargetDependency */,
+			);
+			name = CClockZTests;
+			productName = CClockZTests;
+			productReference = 8E268D051C34E81F001B3F55 /* CClockZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E268D0F1C34E81F001B3F55 /* CClockZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E268D1F1C34E81F001B3F55 /* Build configuration list for PBXNativeTarget "CClockZUITests" */;
+			buildPhases = (
+				8E268D0C1C34E81F001B3F55 /* Sources */,
+				8E268D0D1C34E81F001B3F55 /* Frameworks */,
+				8E268D0E1C34E81F001B3F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E268D121C34E81F001B3F55 /* PBXTargetDependency */,
+			);
+			name = CClockZUITests;
+			productName = CClockZUITests;
+			productReference = 8E268D101C34E81F001B3F55 /* CClockZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E268CE91C34E81F001B3F55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chazo;
+				TargetAttributes = {
+					8E268CF01C34E81F001B3F55 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8E268D041C34E81F001B3F55 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8E268CF01C34E81F001B3F55;
+					};
+					8E268D0F1C34E81F001B3F55 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8E268CF01C34E81F001B3F55;
+					};
+				};
+			};
+			buildConfigurationList = 8E268CEC1C34E81F001B3F55 /* Build configuration list for PBXProject "CClockZ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E268CE81C34E81F001B3F55;
+			productRefGroup = 8E268CF21C34E81F001B3F55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E268CF01C34E81F001B3F55 /* CClockZ */,
+				8E268D041C34E81F001B3F55 /* CClockZTests */,
+				8E268D0F1C34E81F001B3F55 /* CClockZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E268CEF1C34E81F001B3F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E268D341C34F059001B3F55 /* Icon-60@3x.png in Resources */,
+				8E268D351C34F059001B3F55 /* Icon-Small.png in Resources */,
+				8E268CFF1C34E81F001B3F55 /* LaunchScreen.storyboard in Resources */,
+				8E268D371C34F059001B3F55 /* Icon-Small@3x.png in Resources */,
+				8E268D391C34F059001B3F55 /* Icon-Spotlight-40@2x.png in Resources */,
+				8E268D331C34F059001B3F55 /* Icon-60@2x.png in Resources */,
+				8E268D381C34F059001B3F55 /* Icon-Spotlight-40.png in Resources */,
+				8E268D3B1C34F059001B3F55 /* Icon.png in Resources */,
+				8E268D3A1C34F059001B3F55 /* Icon-Spotlight-40@3x.png in Resources */,
+				8E268D3C1C34F059001B3F55 /* Icon@2x.png in Resources */,
+				8E268CFC1C34E81F001B3F55 /* Assets.xcassets in Resources */,
+				8E268D361C34F059001B3F55 /* Icon-Small@2x.png in Resources */,
+				8E268D3E1C34F059001B3F55 /* iTunesArtwork@2x in Resources */,
+				8E268D321C34F059001B3F55 /* Icon-60.png in Resources */,
+				8E268D3D1C34F059001B3F55 /* iTunesArtwork in Resources */,
+				8E268CFA1C34E81F001B3F55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E268D031C34E81F001B3F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E268D0E1C34E81F001B3F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E268CED1C34E81F001B3F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E268CF71C34E81F001B3F55 /* ViewController.swift in Sources */,
+				8E268CF51C34E81F001B3F55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E268D011C34E81F001B3F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E268D0A1C34E81F001B3F55 /* CClockZTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E268D0C1C34E81F001B3F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E268D151C34E81F001B3F55 /* CClockZUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E268D071C34E81F001B3F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E268CF01C34E81F001B3F55 /* CClockZ */;
+			targetProxy = 8E268D061C34E81F001B3F55 /* PBXContainerItemProxy */;
+		};
+		8E268D121C34E81F001B3F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E268CF01C34E81F001B3F55 /* CClockZ */;
+			targetProxy = 8E268D111C34E81F001B3F55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E268CF81C34E81F001B3F55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E268CF91C34E81F001B3F55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E268CFD1C34E81F001B3F55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E268CFE1C34E81F001B3F55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E268D171C34E81F001B3F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E268D181C34E81F001B3F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E268D1A1C34E81F001B3F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CClockZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chazo.CClockZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E268D1B1C34E81F001B3F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CClockZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chazo.CClockZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E268D1D1C34E81F001B3F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CClockZTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chazo.CClockZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CClockZ.app/CClockZ";
+			};
+			name = Debug;
+		};
+		8E268D1E1C34E81F001B3F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CClockZTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chazo.CClockZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CClockZ.app/CClockZ";
+			};
+			name = Release;
+		};
+		8E268D201C34E81F001B3F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CClockZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chazo.CClockZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CClockZ;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8E268D211C34E81F001B3F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CClockZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chazo.CClockZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CClockZ;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E268CEC1C34E81F001B3F55 /* Build configuration list for PBXProject "CClockZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E268D171C34E81F001B3F55 /* Debug */,
+				8E268D181C34E81F001B3F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E268D191C34E81F001B3F55 /* Build configuration list for PBXNativeTarget "CClockZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E268D1A1C34E81F001B3F55 /* Debug */,
+				8E268D1B1C34E81F001B3F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E268D1C1C34E81F001B3F55 /* Build configuration list for PBXNativeTarget "CClockZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E268D1D1C34E81F001B3F55 /* Debug */,
+				8E268D1E1C34E81F001B3F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E268D1F1C34E81F001B3F55 /* Build configuration list for PBXNativeTarget "CClockZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E268D201C34E81F001B3F55 /* Debug */,
+				8E268D211C34E81F001B3F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E268CE91C34E81F001B3F55 /* Project object */;
+}
