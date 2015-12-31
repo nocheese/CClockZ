@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         timeInput = UITextField.init(frame: CGRectMake(20, 60, screenWidth-40, 40))
         timeInput.placeholder = "input time (min)"
-        timeInput.backgroundColor = UIColor( white: 1, alpha: 0.5)
+        timeInput.backgroundColor = UIColor.lightGrayColor()
         timeInput.keyboardType = UIKeyboardType.NumberPad
         timeInput .addTarget(self, action: Selector("textDidChanged:"), forControlEvents: UIControlEvents.EditingChanged)
         self.view.addSubview(timeInput)
@@ -92,8 +92,9 @@ class ViewController: UIViewController {
         localNotification.timeZone = NSTimeZone.localTimeZone()
         localNotification.alertTitle = "CClockZ";
         localNotification.alertBody = "time is up"
-        localNotification.fireDate = NSDate(timeIntervalSinceNow:min*60)
+        localNotification.fireDate = NSDate(timeIntervalSinceNow:min)
         localNotification.soundName = UILocalNotificationDefaultSoundName
+        localNotification.repeatInterval = NSCalendarUnit.Minute
         UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
     }
 
