@@ -102,7 +102,7 @@ class ViewController: UIViewController {
         localNotification.timeZone = NSTimeZone.localTimeZone()
         localNotification.alertTitle = "CClockZ";
         localNotification.alertBody = "time is up"
-        localNotification.fireDate = NSDate(timeIntervalSinceNow:min)
+        localNotification.fireDate = NSDate(timeIntervalSinceNow:min*60)
         localNotification.soundName = UILocalNotificationDefaultSoundName
         localNotification.repeatInterval = NSCalendarUnit.Minute
         UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
