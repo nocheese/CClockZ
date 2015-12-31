@@ -19,22 +19,32 @@ class ViewController: UIViewController {
         self.view.endEditing(true)
     }
     
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         let screenWidth:CGFloat = UIScreen.mainScreen().bounds.size.width;
         
-        timeInput = UITextField.init(frame: CGRectMake(20, 60, screenWidth-40, 40))
+        self.view.backgroundColor = UIColor(colorLiteralRed: 0.184, green: 0.710, blue: 1.000, alpha: 1.000)
+        
+        timeInput = UITextField.init(frame: CGRectMake(0, 60, screenWidth, 60))
         timeInput.placeholder = "input time (min)"
-        timeInput.backgroundColor = UIColor.lightGrayColor()
+        timeInput.textAlignment = NSTextAlignment.Center
+        timeInput.tintColor = UIColor.whiteColor()
+        timeInput.textColor = UIColor.whiteColor()
+        timeInput.backgroundColor = UIColor(colorLiteralRed: 0.000, green: 0.612, blue: 1.000, alpha: 1.000)
         timeInput.keyboardType = UIKeyboardType.NumberPad
         timeInput .addTarget(self, action: Selector("textDidChanged:"), forControlEvents: UIControlEvents.EditingChanged)
         self.view.addSubview(timeInput)
+//        UIColor *color = [UIColor colorWithRed:0.000 green:0.612 blue:1.000 alpha:1.000]
         
-        timeButton1 = UIButton.init(frame: CGRectMake(20, CGRectGetMaxY(timeInput.frame)+30, screenWidth-40, 60))
-        timeButton1.backgroundColor = UIColor.blueColor()
-        timeButton1.tag = 15;
+        timeButton1 = UIButton.init(frame: CGRectMake(0, CGRectGetMaxY(timeInput.frame), screenWidth, 60))
+        timeButton1.backgroundColor = UIColor(colorLiteralRed: 0.000, green: 0.475, blue: 0.910, alpha: 1.000)
+        timeButton1.tag = 15
         timeButton1.setTitle("15min", forState: UIControlState.Normal)
         timeButton1.addTarget(self, action: Selector("didTapButton:"), forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(timeButton1)
@@ -64,7 +74,7 @@ class ViewController: UIViewController {
     func didReceiveLocalNotification() {
         
         AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
-        AudioServicesPlaySystemSound(1317)
+//        AudioServicesPlaySystemSound(1317)
         
         timeButton1.enabled = true
 //        timeButton2.enabled = true
